@@ -1,4 +1,4 @@
-## SSH to droplet
+## SSH to droplet digital ocean
 ssh -i .ssh/digitalocean root@104.248.182.237
 
 ## To test that the file authenticates successfully,
