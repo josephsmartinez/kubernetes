@@ -1,7 +1,13 @@
 # Kubernetes
 Kubernetes (k8s) is an open-source system for automating deployment, scaling, and management of containerized applications.
 
-
+## Running minikube on a cloud instance on digital ocean
+1. Configure a new ubuntu or centos image using digitalocean.com
+2. Install a hypervisor
+[Virtual Box](https://www.virtualbox.org/wiki/Linux_Downloads)
+3. Install kuberctl
+4. Download minikube image
+5. `minikube start`
 
 ## Create a Configuration File
 The example configuration defines two types of objects:

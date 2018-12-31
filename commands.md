@@ -1,5 +1,5 @@
 ## SSH to droplet digital ocean
-ssh -i .ssh/digitalocean root@104.248.182.237
+ssh -i .ssh/digitalocean root@104.248.182.237+
 
 ## To test that the file authenticates successfully,
 kubectl --kubeconfig=.kube/k8s-1-13-1-do-2-nyc1-1546269711917-kubeconfig.yaml get nodes
